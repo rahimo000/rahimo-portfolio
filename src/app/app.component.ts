@@ -9,5 +9,12 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'rahimo-portfolio';
+  title = 'Rahimo Portfolio';
+  header_Name = 'Rahimo';
+  toggleMenu() {
+    const menu = document.querySelector(".menu-links");
+    const icon = document.querySelector(".hamburger-icon");
+    menu?.classList.toggle("open");
+    icon?.classList.toggle("open");
+  }
 }
