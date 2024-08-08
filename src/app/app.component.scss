@@ -192,6 +192,11 @@
     margin: auto 0;
   }
   
+  #profile .section__pic-container img{
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
   .section__text {
     align-self: center;
     text-align: center;
@@ -491,6 +496,7 @@
       height: 275px;
       margin: 0 auto 2rem;
     }
+
     .about-containers {
       margin-top: 0;
     }
